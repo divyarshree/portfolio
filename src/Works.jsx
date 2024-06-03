@@ -5,11 +5,11 @@ function Works() {
         <>
             <div className='works experience' id="works">
                 <div className='container common-padding'>
-                    <h2>My Works</h2>
+                    <h2 data-aos="fade-up">My Works</h2>
                     <div className="web-works">
                         <div className="row">
 
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4">
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4" data-aos="fade-up">
                                 <a href="https://mirafra.com/" className="card-link" target="_blank" rel="noopener noreferrer">
                                     <div className="card">
                                         <img decoding="async" src="https://www.pinklemonade.in/wp-content/uploads/2024/05/mirafra.webp" className="card-img-top" alt="Mirafra" />
@@ -22,7 +22,7 @@ function Works() {
                                 </a>
                             </div>
 
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4">
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4" data-aos="fade-up">
                                 <a href="https://resil.com/" className="card-link" target="_blank" rel="noopener noreferrer">
                                     <div className="card">
                                         <img decoding="async" src="https://pinklemonade.in/wp-content/uploads/2024/03/Resil.jpg" className="card-img-top" alt="Resil" />
@@ -34,7 +34,7 @@ function Works() {
                                 </a>
                             </div>
 
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4">
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4" data-aos="fade-up">
                                 <a href="https://cordindia.in/" className="card-link" target="_blank" rel="noopener noreferrer">
                                     <div className="card">
                                         <img decoding="async" src="https://pinklemonade.in/wp-content/uploads/2024/03/Cord.jpg" className="card-img-top" alt="CORD" />
@@ -46,7 +46,7 @@ function Works() {
                                 </a>
                             </div>
 
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4">
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4" data-aos="fade-up">
                                 <a href="https://ekanaclub.com/" className="card-link" target="_blank" rel="noopener noreferrer">
                                     <div className="card">
                                         <img decoding="async" src="https://pinklemonade.in/wp-content/uploads/2024/03/ekanaclub.jpg" className="card-img-top" alt="Ekana Club" />
@@ -59,7 +59,7 @@ function Works() {
                             </div>
 
 
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4">
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4" data-aos="fade-up">
                                 <a href="https://quantumenergy.in/" className="card-link" target="_blank" rel="noopener noreferrer">
                                     <div className="card">
                                         <img decoding="async" src="https://pinklemonade.in/wp-content/uploads/2024/03/Quantum.jpg" className="card-img-top" alt="Quantum Energy" />
@@ -71,7 +71,7 @@ function Works() {
                                 </a>
                             </div>
 
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4">
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4" data-aos="fade-up">
                                 <a href="https://project-lithium.com/" className="card-link" target="_blank" rel="noopener noreferrer">
                                     <div className="card">
                                         <img decoding="async" src="https://pinklemonade.in/wp-content/uploads/2024/03/lithium.jpg" className="card-img-top" alt="Project Lithium" />
@@ -84,7 +84,7 @@ function Works() {
                             </div>
 
 
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4">
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4" data-aos="fade-up">
                                 <a href="https://www.assetzproperty.com/bloomanddell/" className="card-link" target="_blank" rel="noopener noreferrer">
                                     <div className="card">
                                         <img decoding="async" src="https://pinklemonade.in/wp-content/uploads/2024/03/assetzproperty.jpg" className="card-img-top" alt="Assetz Property" />
@@ -96,7 +96,7 @@ function Works() {
                                 </a>
                             </div>
 
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4">
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4" data-aos="fade-up">
                                 <a href="https://techwisedigital.com/" className="card-link" target="_blank" rel="noopener noreferrer">
                                     <div className="card">
                                         <img decoding="async" src="https://pinklemonade.in/wp-content/uploads/2024/03/techwise.jpg" className="card-img-top" alt="Techwise Digital" />
@@ -109,7 +109,7 @@ function Works() {
                             </div>
 
 
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4">
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4" data-aos="fade-up">
                                 <a href="https://hmconstructions.com/" className="card-link" target="_blank" rel="noopener noreferrer">
                                     <div className="card">
                                         <img decoding="async" src="./hm.jpeg" className="card-img-top" alt="Hilton Satmanya Bengaluru" />
@@ -122,7 +122,7 @@ function Works() {
                             </div>
 
 
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4">
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4" data-aos="fade-up">
                                 <a href="https://www.peoplestrong.com/" className="card-link" target="_blank" rel="noopener noreferrer">
                                     <div className="card">
                                         <img decoding="async" src="https://pinklemonade.in/wp-content/uploads/2024/01/peoplestrong-2.jpg" className="card-img-top" alt="PeopleStrong" />
@@ -134,7 +134,7 @@ function Works() {
                                 </a>
                             </div>
 
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4">
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4" data-aos="fade-up">
                             <a href="https://zinoti.com/" className="card-link" target="_blank" rel="noopener noreferrer">
                                 <div className="card">
                                     <img decoding="async" src="./zinoti.jpeg" className="card-img-top" alt="Idcubesystems" />
@@ -146,18 +146,7 @@ function Works() {
                             </a>
                         </div>
 
-                        <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4">
-                            <a href="https://zinoti.com/" className="card-link" target="_blank" rel="noopener noreferrer">
-                                <div className="card">
-                                    <img decoding="async" src="./zinoti.jpeg" className="card-img-top" alt="Idcubesystems" />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Zinoti in Bengaluru</h5>
-                                        <p className="card-text">Crafted Zinoti's new website showcasing their brand offerings.</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4">
+                        <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4" data-aos="fade-up">
                             <a href="#" className="card-link" target="_blank" rel="noopener noreferrer">
                                 <div className="card">
                                     <img decoding="async" src="./britannia.jpeg" className="card-img-top" alt="Idcubesystems" />
@@ -169,7 +158,7 @@ function Works() {
                                 </div>
                             </a>
                         </div>
-                        <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4">
+                        <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4" data-aos="fade-up">
                             <a href="#" className="card-link" target="_blank" rel="noopener noreferrer">
                                 <div className="card">
                                     <img decoding="async" src="./cowrks.jpeg" className="card-img-top" alt="Idcubesystems" />
@@ -180,7 +169,7 @@ function Works() {
                                 </div>
                             </a>
                         </div>
-                        <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4">
+                        <div className="col-12 col-sm-6 col-md-6 col-lg-4 mt-4" data-aos="fade-up">
                             <div className=''>
                             <h5 className="card-title">... and many more projects</h5>
                             </div>

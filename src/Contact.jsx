@@ -4,9 +4,9 @@ function Contact() {
   return (
     <div className='contact common-padding' id="contact">
       <div className='container'>
-        <h2>Contact Me</h2>
+        <h2 data-aos="fade-up">Contact Me</h2>
         <div className='row'>
-            <div className='col-12 col-sm-6 col-md-6 col-lg-4'>
+            <div className='col-12 col-sm-6 col-md-6 col-lg-4' data-aos="fade-up">
                 <div className='contacts'>
                     <a href='https://www.google.com/maps'>
                     <img src='./address.svg' alt="address" />
@@ -16,7 +16,7 @@ function Contact() {
                 </div>
             
           </div>
-          <div className='col-12 col-sm-6 col-md-6 col-lg-4'>
+          <div className='col-12 col-sm-6 col-md-6 col-lg-4' data-aos="fade-up">
                 <div className='contacts'>
                     <a href="tel:9902920094">
                     <img src='./phone.svg' alt="phone" />
@@ -26,7 +26,7 @@ function Contact() {
                 </div>
             
           </div>
-          <div className='col-12 col-sm-6 col-md-6 col-lg-4'>
+          <div className='col-12 col-sm-6 col-md-6 col-lg-4' data-aos="fade-up">
                  <div className='contacts'>
                  <a href="mailto:divyashree@pinklemonade.in">
                     <img src='./mail.svg' alt="mail" />

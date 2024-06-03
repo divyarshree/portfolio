@@ -25,16 +25,16 @@
 }
 
 .header .header-right a {
-  color: darkgray;
+  color: darkgray!important;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
   font-size: 17px;
 }
 
-.header .header-right a:hover {
+.header .header-right a:hover ,.header .header-right a.active{
   /* background-color: #ddd; */
-  color: #fff;
+  color: #fff!important;
 }
 
 .menu-toggle {

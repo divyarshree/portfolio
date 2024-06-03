@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -33,7 +35,7 @@ const ImageCarousel = () => {
   return (
     <OwlCarousel className="owl-theme" {...options}>
       {images.map((image, index) => (
-        <div className="item" key={index}>
+        <div className="item" key={index} data-aos="fade-up">
           <img src={`path_to_your_images/${image}`} alt={`Image ${index + 1}`} />
         </div>
       ))}

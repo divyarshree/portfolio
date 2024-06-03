@@ -13,11 +13,11 @@ const Header = () => {
     return (
         <div className="header">
             <div className="container">
-                <RouterLink to="/" className="logo"> {/* Adjust the path in 'to' prop */}
+                <RouterLink to="/" className="logo" data-aos="fade-in"> {/* Adjust the path in 'to' prop */}
                     <img src="./d-logo.png" width={60} alt="logo"/>
                 </RouterLink>
-                <div className={`header-right ${isMenuOpen ? "open" : ""}`}>
-                    <Link to="about" spy={true} smooth={true} duration={500}>About</Link>
+                <div className={`header-right ${isMenuOpen ? "open" : ""}`} data-aos="flip-down">
+                    <Link to="about" spy={true} smooth={true} duration={500} >About</Link>
                     <Link to="skills" spy={true} smooth={true} duration={500}>Skills</Link>
                     <Link to="experience" spy={true} smooth={true} duration={500}>Experience</Link>
                     <Link to="works" spy={true} smooth={true} duration={500}>Works</Link>

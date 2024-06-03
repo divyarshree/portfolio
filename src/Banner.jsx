@@ -7,7 +7,7 @@ export default function Banner() {
     AOS.init({
       duration: 1000, // Animation duration in milliseconds
       once: true, // Whether animation should happen only once - while scrolling down
-      easing: 'ease-in-out', // Easing function for animations
+      easing: 'ease-in', // Easing function for animations
     });
   }, []);
 
@@ -15,8 +15,8 @@ export default function Banner() {
     <div className="banner-section">
       <div className="container">
         <h1 data-aos="fade-up">Full-Stack Web Developer | Crafting Interactive Web Experiences</h1>
-        <p data-aos="fade-left" data-aos-delay="200">Bridging Front-end Elegance with Back-end Power</p>
-        <a href="#contact" className="cta-button" data-aos="fade-right" data-aos-delay="400">Contact Me</a>
+        <p data-aos="fade-in" data-aos-delay="500">Bridging Front-end Elegance with Back-end Power</p>
+        <a href="#contact" className="cta-button" data-aos="fade-in" data-aos-delay="1000">Contact Me</a>
       </div>
     </div>
   );
