@@ -57,6 +57,13 @@
       top: 80px;
       left: 0;
       background-color: #333;
+      flex-direction: column;
+      width: 100%;
+      position: fixed;
+      top: 46px;
+      left: 0;
+      background-color: #333;
+      z-index: 999;
   }
 
   .header .header-right.open {
@@ -76,3 +83,4 @@
       display: block;
   }
 }
+

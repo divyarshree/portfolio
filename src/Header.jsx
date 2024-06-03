@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import './css/header.css';
-import { Link as RouterLink } from 'react-router-dom';
-import { Link } from 'react-scroll';
 
 const Header = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
@@ -10,18 +8,24 @@ const Header = () => {
         setMenuOpen(!isMenuOpen);
     };
 
+    const handleMenuItemClick = () => {
+        if (isMenuOpen) {
+            setMenuOpen(false);
+        }
+    };
+
     return (
         <div className="header">
             <div className="container">
-                <RouterLink to="/" className="logo" data-aos="fade-in"> {/* Adjust the path in 'to' prop */}
-                    <img src="./d-logo.png" width={60} alt="logo"/>
-                </RouterLink>
-                <div className={`header-right ${isMenuOpen ? "open" : ""}`} data-aos="flip-down">
-                    <Link to="about" spy={true} smooth={true} duration={500} >About</Link>
-                    <Link to="skills" spy={true} smooth={true} duration={500}>Skills</Link>
-                    <Link to="experience" spy={true} smooth={true} duration={500}>Experience</Link>
-                    <Link to="works" spy={true} smooth={true} duration={500}>Works</Link>
-                    <Link to="contact" spy={true} smooth={true} duration={500}>Contact</Link>
+                <a href="#default" className="logo">
+                    <img src="./d-logo.png" width={60} alt="logo" />
+                </a>
+                <div className={`header-right ${isMenuOpen ? "open" : ""}`}>
+                    <a href="#about" onClick={handleMenuItemClick}>About</a>
+                    <a href="#skills" onClick={handleMenuItemClick}>Skills</a>
+                    <a href="#experience" onClick={handleMenuItemClick}>Experience</a>
+                    <a href="#works" onClick={handleMenuItemClick}>Works</a>
+                    <a href="#contact" onClick={handleMenuItemClick}>Contact</a>
                 </div>
                 <div className="menu-toggle" onClick={toggleMenu}>
                     <i className={`fa ${isMenuOpen ? "fa-times" : "fa-bars"}`}></i>

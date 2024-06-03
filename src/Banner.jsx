@@ -3,13 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 export default function Banner() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Animation duration in milliseconds
-      once: true, // Whether animation should happen only once - while scrolling down
-      easing: 'ease-in', // Easing function for animations
-    });
-  }, []);
+  
 
   return (
     <div className="banner-section">
