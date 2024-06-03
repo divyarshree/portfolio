@@ -35,7 +35,7 @@ const ImageCarousel = () => {
   return (
     <OwlCarousel className="owl-theme" {...options}>
       {images.map((image, index) => (
-        <div className="item" key={index} data-aos="fade-up">
+        <div className="item" key={index}>
           <img src={`path_to_your_images/${image}`} alt={`Image ${index + 1}`} />
         </div>
       ))}

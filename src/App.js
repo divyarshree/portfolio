@@ -39,15 +39,15 @@ function App() {
       {/* <ImageCarousel /> */}
       <div className='common-padding skills' id="skills">
         <div className='container'>
-          <h2 data-aos="fade-up">My skills</h2>
+          <h2>My skills</h2>
           <Carousel />
         </div>
       </div>
       <div className='experience common-padding' id="experience">
         <div className='container'>
-          <h2 data-aos="fade-up">My Experience</h2>
+          <h2>My Experience</h2>
           <div className='row'>
-            <div className='col-12 col-sm-12 col-md-6 col-lg-6' data-aos="fade-right" data-aos-delay="500">
+            <div className='col-12 col-sm-12 col-md-6 col-lg-6'>
               <div className='exp'>
                 <div class="resume-item">
                   <span class="date"><span class="icon-calendar"><img src='./calender.svg' width={20}></img></span> March 2021 - Present (3 years & 3 months)</span>
@@ -62,7 +62,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className='col-12 col-sm-12 col-md-6 col-lg-6' data-aos="fade-left" data-aos-delay="700">
+            <div className='col-12 col-sm-12 col-md-6 col-lg-6'>
               <div className='exp'>
                 <div class="resume-item">
                   <span class="date"><span class="icon-calendar"><img src='./calender.svg' width={20}></img></span> October 2019 - March 2021 (2 years & 6 months)</span>
