@@ -9,6 +9,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import Works from './Works';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'aos/dist/aos.css';
 
 
 function App() {
