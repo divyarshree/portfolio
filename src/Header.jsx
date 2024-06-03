@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import './css/header.css';
+import { Link as RouterLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const Header = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
@@ -8,18 +10,18 @@ const Header = () => {
         setMenuOpen(!isMenuOpen);
     };
 
-    return(
+    return (
         <div className="header">
             <div className="container">
-                <a href="#default" className="logo">
+                <RouterLink to="/" className="logo"> {/* Adjust the path in 'to' prop */}
                     <img src="./d-logo.png" width={60} alt="logo"/>
-                </a>
+                </RouterLink>
                 <div className={`header-right ${isMenuOpen ? "open" : ""}`}>
-                    <a href="#about">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#experience">Experience</a>
-                    <a href="#works">Works</a>
-                    <a href="#contact">Contact</a>
+                    <Link to="about" spy={true} smooth={true} duration={500}>About</Link>
+                    <Link to="skills" spy={true} smooth={true} duration={500}>Skills</Link>
+                    <Link to="experience" spy={true} smooth={true} duration={500}>Experience</Link>
+                    <Link to="works" spy={true} smooth={true} duration={500}>Works</Link>
+                    <Link to="contact" spy={true} smooth={true} duration={500}>Contact</Link>
                 </div>
                 <div className="menu-toggle" onClick={toggleMenu}>
                     <i className={`fa ${isMenuOpen ? "fa-times" : "fa-bars"}`}></i>

@@ -418,3 +418,6 @@ a {
     font-weight: 500;
   }
 }
+a{
+  cursor: pointer;
+}

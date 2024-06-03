@@ -8,14 +8,27 @@ import Carousel from './Carousel';
 import Contact from './Contact';
 import Footer from './Footer';
 import Works from './Works';
+import Skills from './Skills';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'aos/dist/aos.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
+          <Router>
+            <Header />
+            <Routes>
+                <Route path="#about" element={<About />} />
+                <Route path="#skills" element={<Carousel />} />
+                {/* <Route path="#experience" element={} /> */}
+                <Route path="#works" element={<Works />} />
+                <Route path="#contact" element={<Contact />} />
+                {/* Define other routes if needed */}
+            </Routes>
+        </Router>
+
       <Banner />
       <About />
       {/* <ImageCarousel /> */}
